@@ -110,6 +110,11 @@ function install_mc {
 	check_install mc mc
 }
 
+function install_nano {
+	check_install nano nano
+}
+
+
 function install_iotop {
 	check_install iotop iotop
 }
@@ -1277,6 +1282,7 @@ system)
 	install_iotop
 	install_iftop
 	install_syslogd
+	install_nano
 	apt_clean
 	;;
 *)
